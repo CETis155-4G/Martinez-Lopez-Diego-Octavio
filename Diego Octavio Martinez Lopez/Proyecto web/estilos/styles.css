@@ -1,0 +1,173 @@
+/*______________________________________________________________________________________________*/
+/*______________________________Necesarios para la pagina_______________________________________*/
+center{
+  /* Tamaño de la letra va con px*/
+   font-size: 30px;
+   /* Fuente de letra*/
+   font-family: 'Montserrat', sans-serif;
+}
+
+/* fondo de la pagina*/
+body {
+     background: rgb(102, 140, 160);
+}
+
+P{
+  /* que tan clara es la letra*/
+  font-weight: normal=100;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+    
+}
+.textojustificado{
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textotit{
+  text-align: justify;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*______________________________Necesarios para la pagina_______________________________________*/
+/*______________________________________________________________________________________________*/
+
+
+/*______________________________________________________________________________________________*/
+/*_______________________________________Box____________________________________________________*/
+
+.boxlog {
+  border: 5px solid rgb(52, 103, 131);
+  background-color: rgb(55, 111, 141);
+  padding: 40px;
+  margin: 40px;
+  width: 350px;
+  height: 370px;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+  border: 5px solid rgb(52, 103, 131);
+  background-color: rgb(55, 111, 141);
+  padding: 40px;
+  margin: 40px;
+  width: 350px;
+  height: 1100px;
+}
+
+.boxinf {
+  border: 5px solid rgb(102, 140, 160);
+  background-color: rgb(102, 140, 160);
+  padding: 40px;
+  margin: 40px;
+  width: 1000px;
+  height: 500px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/*_______________________________________Box____________________________________________________*/
+/*______________________________________________________________________________________________*/
+
+
+
+.texting{
+  padding:10px;
+}
+.alternate {
+  box-sizing: border-box;
+}
+
+
+input:invalid {
+  border: 2px dashed rgb(0, 0, 0);
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255));
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+body{
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.letra{
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+
+/*______________________________________________________________________________________________*/
+/*_______________________________________HEADER_________________________________________________*/
+header{
+  display: flex;
+  height: 80px;
+  background-color: rgb(52, 103, 131);
+  justify-content: space-between;
+}
+
+.headerlog{
+  display: flex;
+  height: 110px;
+  background-color: rgb(52, 103, 131);
+  justify-content: space-between;
+}
+/*_______________________________________HEADER_________________________________________________*/
+/*______________________________________________________________________________________________*/
+
+
+/*______________________________________________________________________________________________*/
+/*_______________________________________Nav a__________________________________________________*/
+.nav-link:hover{
+  color: white;
+}
+
+.nav-link{
+  color:#000;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.nav-linked{
+  color:#000;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.nav-linkin{
+  color:#000;
+  font-weight: 600;
+  padding-right: 10px;
+  font-size: 30px;
+}
+/*_______________________________________Nav a__________________________________________________*/
+/*______________________________________________________________________________________________*/
+
+.Titulo{
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.precio{
+  color: rgb(59, 170, 170);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contenedor-imagenes {
+  display: flex;
+}
+
+.contenedor-imagenes img:first-child {
+  margin-right: 10px;
+}

@@ -1,0 +1,43 @@
+center{
+  /* Tamaño de la letra*/
+   font-size: 12;
+   /* Fuente de letra*/
+   font-style: normal;
+}
+
+
+
+/* fondo de la pagina*/
+body {
+     background: white;
+}
+
+
+P{
+  /* RGB: RED GREEN BLUE*/
+  /* Colores de la fuente*/
+  color: rgb(0, 0, 0);
+  /* Tamaño de pixeles "Ancho"*/
+  width: 500px;
+  /* Borde,pixeles y color RGB*/
+  border: 5px solid rgb(27, 136, 127);
+}
+
+
+P{
+  /* Fuente de letra*/
+  font-style: oblique;
+  /* que tan clara es la letra*/
+  font-weight: normal=100;
+
+}
+
+body{
+  /* Tipo de borde*/
+   border-style: outset;
+  /*color RGB*/
+   border-color: rgb(27, 136, 127);
+  /*tipo de bordes*/
+   border-width: thick;
+
+}
